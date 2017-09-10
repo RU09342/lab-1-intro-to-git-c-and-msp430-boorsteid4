@@ -1,6 +1,9 @@
 Function Name: math
+
 Author: Damon Boorstein
+
 Date Created: 9/6/17
+
 Last Updated: 9/7/17
 
 Syntax: math(int num1, int num2, char operator);
