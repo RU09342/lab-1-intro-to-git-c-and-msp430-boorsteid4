@@ -1,8 +1,11 @@
 # Program Information
-Function Name: math \n
-Author: Damon Boorstein \n
-Date Created: 9/6/17 \n
-Last Updated: 9/7/17 \n
+Function Name: math.c
+
+Author: Damon Boorstein
+
+Date Created: 9/6/17
+
+Last Updated: 9/13/17
 
 Syntax: math(int num1, int num2, char operator);
 

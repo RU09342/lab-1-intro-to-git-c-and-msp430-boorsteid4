@@ -1,23 +1,22 @@
 /*
  * math.h
  *
- *  Created on: Aug 22, 2017
- * 	Last Edited: Sept 5, 2017
- *      Author: Russell Trafford
+ *  Created on: Sep 6, 2017
+ *  Last Updated: Sep 13, 2017
+ *      Author: Damon Boorstein
  */
 
-/* Your assignment is to take the math function and implement at least the following functions:
- * + Add (num1 + num2)
- * - Subtract (num1 - num2)
- * * Multiply (num1 * num2)
- * / Divide (num1 / num2)
- * % Modulus (num1 % num2)
+/* Function: int math(int, int, char);
+ *
+ * Valid inputs: all valid int, '+', '-', '*', '/', '%'
+ *
+ * Description: Accepts two integer arguments as coefficients and one char-type operator.
+ *  Acceptable operators include '+', '-', '*', '/', and '%'. Performs integer math.
 */
 
 #ifndef MATH_H_
 #define MATH_H_
 
-//Part of your documentation should be listing the valid inputs and outputs for the functions you create.
 int math(int num1, int num2, char Operator);
 
 #endif /* MATH_H_ */

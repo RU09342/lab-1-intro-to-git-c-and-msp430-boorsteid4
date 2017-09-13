@@ -1,45 +1,37 @@
 /*
 * math.cpp
 *
-*  Created on: Sep 6, 2017
-* 	Last Edited: Sept 6, 2017
+*  Created on: Sep. 6, 2017
+*   Last Edited: Sep. 13, 2017
 *      Author: Damon Boorstein
 */
 
-/* Your assignment is to take the math function and implement at least the following functions:
-* + Add (num1 + num2)
-* - Subtract (num1 - num2)
-* * Multiply (num1 * num2)
-* / Divide (num1 / num2)
-* % Modulus (num1 % num2)
-*/
-
 #include "stdafx.h"
-#include "math.h"
+#include "math.h" // include math header file
 
 int math(int num1, int num2, char Operator) {
-	int res = 0;
+    int res = 0; // result
 
-	switch (Operator)
-	{
-	case '+':
-		res = num1 + num2;
-		break;
-	case '-':
-		res = num1 - num2;
-		break;
-	case '*':
-		res = num1 * num2;
-		break;
-	case '/':
-		res = num1 / num2;
-		break;
-	case '%':
-		res = num1 % num2;
-		break;
-	default:
-		break;
-	}
+    switch (Operator)   // switches between different operators
+    {
+    case '+':
+        res = num1 + num2;
+        break;
+    case '-':
+        res = num1 - num2;
+        break;
+    case '*':
+        res = num1 * num2;
+        break;
+    case '/':
+        res = num1 / num2;
+        break;
+    case '%':
+        res = num1 % num2;
+        break;
+    default:    // default case for invalid operator input
+        break;
+    }
 
-	return res;
+    return res;
 }
